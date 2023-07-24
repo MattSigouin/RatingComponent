@@ -1,0 +1,29 @@
+.star {
+
+}
+
+.header {
+
+}
+
+.description {
+
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.rating {
+
+}
+
+.rating:hover {
+    background: #7d8796
+}
+
+.rating:focus {
+    background: #fb7b19
+}
