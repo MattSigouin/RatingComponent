@@ -17,7 +17,7 @@ body {
 .card {
     background: #1e242e;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 30px;
     width: 350px;
     height: 350px;
     text-align: left; 
@@ -26,7 +26,7 @@ body {
 .thankYouCard {
     background: #1e242e;
     padding: 40px;
-    border-radius: 40px;
+    border-radius: 30px;
     width: 350px;
     height: 350px;
     text-align: center; 
@@ -100,7 +100,8 @@ body {
     font: bold;
     padding: 10px;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 40px; 
+    margin-top: 10px;
 }
 
 .submit:hover {
