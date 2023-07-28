@@ -1,10 +1,52 @@
+:root {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    
+    
+
+}
+
+body {
+    background-color: #121417;
+    
+    
+}
+
 .card {
+    background: #1e242e;
+    padding: 20px;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    text-align: left; 
+}
+
+.thankYouCard {
     background: #1e242e;
     padding: 40px;
     border-radius: 40px;
     width: 350px;
     height: 350px;
-    text-align: left
+    text-align: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected {
+    color: #fb7b19;
+    background: #272e3f;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    
+   
 }
 
 .star {
@@ -58,13 +100,12 @@
     font: bold;
     padding: 10px;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 40px;
 }
 
 .submit:hover {
     background-color: white;
     color: #fb7b19; 
-    padding-bottom: 30px;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 40px;
 }
